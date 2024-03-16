@@ -150,8 +150,12 @@ img {
   transform: translate3d(0, -25%, 100px);
 }
 
-.card:hover {
-  box-shadow: 0px 40px 40px 12px rgba(41, 27, 53, 0.75);
+.card:hover:nth-child(1) {
+  box-shadow: 0px 50px 40px 12px rgb(24, 20, 48);
+}
+
+.card:hover:nth-child(2) {
+  box-shadow: 0px 50px 40px 12px rgb(19, 25, 52);
 }
 
 #audio {
