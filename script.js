@@ -2,11 +2,11 @@ const audio = document.getElementById("audio");
 const song = document.getElementById("song");
 const icon = document.getElementById("icon");
 
-const character = document.querySelectorAll(".character");
+const card = document.querySelectorAll(".card");
 const song1 = document.getElementById("song1");
 
-character.forEach((character) => {
-  character.addEventListener("mouseover", () => {
+card.forEach((card) => {
+  card.addEventListener("mouseover", () => {
     song1.play();
   });
 });
