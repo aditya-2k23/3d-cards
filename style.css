@@ -187,3 +187,27 @@ img {
 #audio:hover {
   text-shadow: 0 0 8px rgb(192, 170, 0);
 }
+
+@media (max-width: 768px) {
+  .crack-effect {
+    z-index: 100;
+    position: relative;
+    font-size: 3rem;
+  }
+
+  .wrapper {
+    width: 70%;
+  }
+
+  .title {
+    width: 70%;
+  }
+
+  .character {
+    width: 70%;
+  }
+
+  .card {
+    margin: 0 0 50px 0;
+  }
+}
