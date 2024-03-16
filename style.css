@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0e1017;
+  background: #0a0b10;
 }
 
 .card {
@@ -104,4 +104,8 @@ img {
 .card:hover .character {
   opacity: 1;
   transform: translate3d(0, -25%, 100px);
+}
+
+.card:hover {
+  box-shadow: 0px 40px 40px 12px rgba(41, 27, 53, 0.75);
 }
