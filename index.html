@@ -14,14 +14,14 @@
   <div class="crack-effect">Select your Character</div>
 
   <div class="container">
-    <div class="card">
+    <div class="card" onclick="togglePopup('card1')">
       <div class="wrapper">
         <img class="cover-image" src="img/dark_rider-cover.jpg" />
       </div>
       <img class="title" src="img/dark_rider-title.png" />
       <img class="character" src="img/dark_rider-character.webp" />
     </div>
-    <div class="card">
+    <div class="card" onclick="togglePopup('card2')">
       <div class="wrapper">
         <img class="cover-image" src="img/force_mage-cover.jpg" />
       </div>
@@ -33,6 +33,12 @@
       <i id="icon" class="fas fa-volume-off"></i>
       <audio id="song" src="audio/MOST BADASS VOCAL BATTLE ACTION EVER  by Epikus.mp3" loop></audio>
       <audio src="audio/audio-editor-output.mp3" id="song1"></audio>
+    </div>
+
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <h2 id="text"></h2>
+      </div>
     </div>
   </div>
 
